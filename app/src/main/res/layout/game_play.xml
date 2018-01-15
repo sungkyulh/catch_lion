@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/p2turn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/p2turn"
+        android:orientation="horizontal"
+        android:visibility="invisible"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"></LinearLayout>
+
+        <com.sungkyu.catchlion.SquareFrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <com.sungkyu.catchlion.SquareButton
+                android:id="@+id/p2pawn6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:background="@drawable/invisible"
+                />
+
+            <com.sungkyu.catchlion.SquareImageView
+                android:id="@+id/p2Mark6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mark" />
+        </com.sungkyu.catchlion.SquareFrameLayout>
+
+        <com.sungkyu.catchlion.SquareFrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <com.sungkyu.catchlion.SquareButton
+                android:id="@+id/p2pawn5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:background="@drawable/invisible" />
+
+            <com.sungkyu.catchlion.SquareImageView
+                android:id="@+id/p2Mark5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mark" />
+        </com.sungkyu.catchlion.SquareFrameLayout>
+
+        <com.sungkyu.catchlion.SquareFrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <com.sungkyu.catchlion.SquareButton
+                android:id="@+id/p2pawn4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:background="@drawable/invisible" />
+
+            <com.sungkyu.catchlion.SquareImageView
+                android:id="@+id/p2Mark4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mark" />
+        </com.sungkyu.catchlion.SquareFrameLayout>
+
+        <com.sungkyu.catchlion.SquareFrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <com.sungkyu.catchlion.SquareButton
+                android:id="@+id/p2pawn3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:background="@drawable/invisible" />
+
+            <com.sungkyu.catchlion.SquareImageView
+                android:id="@+id/p2Mark3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mark" />
+        </com.sungkyu.catchlion.SquareFrameLayout>
+
+        <com.sungkyu.catchlion.SquareFrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <com.sungkyu.catchlion.SquareButton
+                android:id="@+id/p2pawn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:background="@drawable/invisible" />
+
+            <com.sungkyu.catchlion.SquareImageView
+                android:id="@+id/p2Mark2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mark" />
+        </com.sungkyu.catchlion.SquareFrameLayout>
+
+        <com.sungkyu.catchlion.SquareFrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <com.sungkyu.catchlion.SquareButton
+                android:id="@+id/p2pawn1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:background="@drawable/invisible" />
+
+            <com.sungkyu.catchlion.SquareImageView
+                android:id="@+id/p2Mark1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mark" />
+        </com.sungkyu.catchlion.SquareFrameLayout>
+
+
+    </LinearLayout>
+
+    <com.sungkyu.catchlion.BoardLinearLayout
+        android:id="@+id/boardlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="5"
+        android:background="@drawable/board_grid"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.sungkyu.catchlion.SquareFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.sungkyu.catchlion.SquareButton
+                    android:id="@+id/Grid11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <com.sungkyu.catchlion.SquareImageView
+                    android:id="@+id/Mark11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/mark" />
+            </com.sungkyu.catchlion.SquareFrameLayout>
+
+            <com.sungkyu.catchlion.SquareFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.sungkyu.catchlion.SquareButton
+                    android:id="@+id/Grid12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <com.sungkyu.catchlion.SquareImageView
+                    android:id="@+id/Mark12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/mark" />
+            </com.sungkyu.catchlion.SquareFrameLayout>
+
+            <com.sungkyu.catchlion.SquareFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.sungkyu.catchlion.SquareButton
+                    android:id="@+id/Grid13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <com.sungkyu.catchlion.SquareImageView
+                    android:id="@+id/Mark13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/mark" />
+            </com.sungkyu.catchlion.SquareFrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.sungkyu.catchlion.SquareFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.sungkyu.catchlion.SquareButton
+                    android:id="@+id/Grid21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <com.sungkyu.catchlion.SquareImageView
+                    android:id="@+id/Mark21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/mark" />
+            </com.sungkyu.catchlion.SquareFrameLayout>
+
+            <com.sungkyu.catchlion.SquareFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.sungkyu.catchlion.SquareButton
+                    android:id="@+id/Grid22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <com.sungkyu.catchlion.SquareImageView
+                    android:id="@+id/Mark22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/mark" />
+            </com.sungkyu.catchlion.SquareFrameLayout>
+
+            <com.sungkyu.catchlion.SquareFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.sungkyu.catchlion.SquareButton
+                    android:id="@+id/Grid23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <com.sungkyu.catchlion.SquareImageView
+                    android:id="@+id/Mark23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/mark" />
+            </com.sungkyu.catchlion.SquareFrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.sungkyu.catchlion.SquareFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.sungkyu.catchlion.SquareButton
+                    android:id="@+id/Grid31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <com.sungkyu.catchlion.SquareImageView
+                    android:id="@+id/Mark31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/mark" />
+            </com.sungkyu.catchlion.SquareFrameLayout>
+
+            <com.sungkyu.catchlion.SquareFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.sungkyu.catchlion.SquareButton
+                    android:id="@+id/Grid32"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <com.sungkyu.catchlion.SquareImageView
+                    android:id="@+id/Mark32"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/mark" />
+            </com.sungkyu.catchlion.SquareFrameLayout>
+
+            <com.sungkyu.catchlion.SquareFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.sungkyu.catchlion.SquareButton
+                    android:id="@+id/Grid33"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <com.sungkyu.catchlion.SquareImageView
+                    android:id="@+id/Mark33"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/mark" />
+            </com.sungkyu.catchlion.SquareFrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.sungkyu.catchlion.SquareFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.sungkyu.catchlion.SquareButton
+                    android:id="@+id/Grid41"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <com.sungkyu.catchlion.SquareImageView
+                    android:id="@+id/Mark41"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/mark" />
+            </com.sungkyu.catchlion.SquareFrameLayout>
+
+            <com.sungkyu.catchlion.SquareFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.sungkyu.catchlion.SquareButton
+                    android:id="@+id/Grid42"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <com.sungkyu.catchlion.SquareImageView
+                    android:id="@+id/Mark42"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/mark" />
+            </com.sungkyu.catchlion.SquareFrameLayout>
+
+            <com.sungkyu.catchlion.SquareFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.sungkyu.catchlion.SquareButton
+                    android:id="@+id/Grid43"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <com.sungkyu.catchlion.SquareImageView
+                    android:id="@+id/Mark43"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/mark" />
+            </com.sungkyu.catchlion.SquareFrameLayout>
+        </LinearLayout>
+    </com.sungkyu.catchlion.BoardLinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <com.sungkyu.catchlion.SquareFrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1">
+
+            <com.sungkyu.catchlion.SquareButton
+                android:id="@+id/p1pawn1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:background="@drawable/invisible" />
+
+            <com.sungkyu.catchlion.SquareImageView
+                android:id="@+id/p1Mark1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mark" />
+        </com.sungkyu.catchlion.SquareFrameLayout>
+
+        <com.sungkyu.catchlion.SquareFrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1">
+
+            <com.sungkyu.catchlion.SquareButton
+                android:id="@+id/p1pawn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:background="@drawable/invisible" />
+
+            <com.sungkyu.catchlion.SquareImageView
+                android:id="@+id/p1Mark2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mark" />
+
+    </com.sungkyu.catchlion.SquareFrameLayout>
+
+        <com.sungkyu.catchlion.SquareFrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1">
+
+            <com.sungkyu.catchlion.SquareButton
+                android:id="@+id/p1pawn3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:background="@drawable/invisible"
+                android:layout_weight="1"/>
+
+            <com.sungkyu.catchlion.SquareImageView
+                android:id="@+id/p1Mark3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mark" />
+
+        </com.sungkyu.catchlion.SquareFrameLayout>
+
+        <com.sungkyu.catchlion.SquareFrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1">
+
+            <com.sungkyu.catchlion.SquareButton
+                android:id="@+id/p1pawn4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:background="@drawable/invisible"
+                android:layout_weight="1"/>
+
+            <com.sungkyu.catchlion.SquareImageView
+                android:id="@+id/p1Mark4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mark" />
+
+        </com.sungkyu.catchlion.SquareFrameLayout>
+
+        <com.sungkyu.catchlion.SquareFrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1">
+
+            <com.sungkyu.catchlion.SquareButton
+                android:id="@+id/p1pawn5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:background="@drawable/invisible"
+                android:layout_weight="1"/>
+
+            <com.sungkyu.catchlion.SquareImageView
+                android:id="@+id/p1Mark5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mark" />
+
+        </com.sungkyu.catchlion.SquareFrameLayout>
+
+        <com.sungkyu.catchlion.SquareFrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1">
+
+            <com.sungkyu.catchlion.SquareButton
+                android:id="@+id/p1pawn6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:background="@drawable/invisible"
+                android:layout_weight="1"/>
+
+            <com.sungkyu.catchlion.SquareImageView
+                android:id="@+id/p1Mark6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/mark" />
+
+        </com.sungkyu.catchlion.SquareFrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/p1turn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/p1turn"
+        android:orientation="horizontal"></LinearLayout>
+</LinearLayout>
